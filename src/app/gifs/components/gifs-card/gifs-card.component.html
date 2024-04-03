@@ -1,0 +1,17 @@
+
+    <div class="card mb-2 text-center bg-dark text-center" >
+        <app-lazy-image
+         [url]="gifs.images.downsized_medium.url" 
+         [alt]="gifs.title || 'No name'">        
+        </app-lazy-image>
+        <!--img [src]="gifs.images.downsized_medium.url" 
+            [alt]="gifs.title"-->
+        <div class="car-body text-white">
+            <p class="card-text"> 
+                {{gifs.title || 'No title'}}
+            </p>
+
+        </div>
+
+    </div>
+
